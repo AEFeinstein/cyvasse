@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/background_tile"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/app_name"
+        android:textColor="#000000"
+        android:textSize="128sp" />
+
+    <com.gelakinetic.cyvasse.uiHelpers.MaxWidthButton
+        android:id="@+id/new_game_btn"
+        style="@style/TabletButton"
+        android:text="@string/new_game" />
+
+    <com.gelakinetic.cyvasse.uiHelpers.MaxWidthButton
+        android:id="@+id/load_game_btn"
+        style="@style/TabletButton"
+        android:text="@string/load_game" />
+
+    <com.gelakinetic.cyvasse.uiHelpers.MaxWidthButton
+        android:id="@+id/notes_btn"
+        style="@style/TabletButton"
+        android:text="@string/notes" />
+
+    <com.gelakinetic.cyvasse.uiHelpers.MaxWidthButton
+        android:id="@+id/settings_btn"
+        style="@style/TabletButton"
+        android:text="@string/settings" />
+
+    <com.gelakinetic.cyvasse.uiHelpers.MaxWidthButton
+        android:id="@+id/about_btn"
+        style="@style/TabletButton"
+        android:text="@string/about" />
+    <!--
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/multiplayer_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign Out" />
+
+        <Button
+            android:id="@+id/quick_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quick Game" />
+
+        <Button
+            android:id="@+id/invite_players"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Invite Players" />
+
+        <Button
+            android:id="@+id/show_invitations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Invitations" />
+    </LinearLayout>
+-->
+</LinearLayout>

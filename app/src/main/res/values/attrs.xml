@@ -1,0 +1,9 @@
+
+<resources>
+
+    <!-- MaxWidthButton -->
+    <declare-styleable name="MaxWidthButton">
+        <attr name="maxWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/top_level"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:gravity="center" 
+    android:background="@android:color/black">
+    
+    <LinearLayout
+        android:background="@drawable/scroll_gradient"
+        android:id="@+id/filler_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:id="@+id/dialog_progress_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/dialog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/header_text" />
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/dialog_message_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp" >
+
+                <TextView
+                    android:id="@+id/dialog_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/dialog_message_style" />
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/dialog_buttons_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+
+                <com.gelakinetic.cyvasse.uiHelpers.MaxWidthButton
+                    android:id="@+id/dialog_negative"
+                    style="@style/DialogButton"
+                    android:text="@string/cancel"
+                    app:maxWidth="250dp" />
+
+                <com.gelakinetic.cyvasse.uiHelpers.MaxWidthButton
+                    android:id="@+id/dialog_neutral"
+                    style="@style/DialogButton"
+                    android:text="@string/dont_save"
+                    app:maxWidth="250dp" />
+
+                <com.gelakinetic.cyvasse.uiHelpers.MaxWidthButton
+                    android:id="@+id/dialog_positive"
+                    style="@style/DialogButton"
+                    android:text="@string/save"
+                    app:maxWidth="250dp" />
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

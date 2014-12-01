@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Cyvasse</string>
+<string name="settings">Ajustes</string>
+<string name="back_button_label">Voltar</string>
+<string name="next_button_label">Próximo</string>
+<string name="skip_button_label">Pular</string>
+<string name="num_rabble_title">Número de Plebe</string>
+<string name="num_spearmen_title">Número de Lanceiros</string>
+<string name="num_crossbowmen_title">Número de Besteiros</string>
+<string name="num_light_horse_title">Número de Cavalos</string>
+<string name="num_heavy_horse_title">Número de Cavaleiros</string>
+<string name="num_elephant_title">Número de Elefantes</string>
+<string name="num_catapult_title">Número de Catapultas</string>
+<string name="num_trebuchet_title">Número de Trabucos</string>
+<string name="num_dragon_title">Número de Dragões</string>
+<string name="num_king_title">Número de Reis</string>
+<string name="num_mountain_title">Número de Montanhas</string>
+<string name="num_river_title">Número de Rios</string>
+<string name="board_size_title">Tamanho do Campo</string>
+<string name="num_moves_title">Número de Movimentos por Turno</string>
+<string name="num_units_title">Número de Unidades</string>
+<string name="num_terrain_title">Número de Terrenos</string>
+<string name="game_rules_options_title">Opções de Regra do Jogo</string>
+<string name="too_many_pieces" formatted="false">%d são muitas peças! Defina no máximo %d peças em Ajustes</string>
+<string name="notes">Como Jogar</string>
+<string name="strength_str">Força:</string>
+<string name="movement_str">Movimento:</string>
+<string name="penalty_mountain_str">Penalidade por Movimento – Montanha:</string>
+<string name="river_movement_penalty">Penalidade por Movimento – Rio:</string>
+<string name="min_attack_range_str">Alcance do Ataque Mínimo:</string>
+<string name="max_attack_range_str">Alcance do Ataque Máximo:</string>
+<string name="rabble_name">Plebe</string>
+<string name="spearmen_name">Lanceiros</string>
+<string name="crossbowmen_name">Besteiros</string>
+<string name="light_horse_name">Cavalo</string>
+<string name="heavy_horse_name">Cavaleiro</string>
+<string name="elephant_name">Elefante</string>
+<string name="catapult_name">Catapulta</string>
+<string name="trebuchet_name">Trabuco</string>
+<string name="dragon_name">Dragão</string>
+<string name="king_name">Rei</string>
+<string name="all_the_rules">Objetivo:&lt;br&gt;
+&#160;&#160;O objetivo do Cyvasse é destruir todas as unidades (peças) de seu oponente em combate, ou destruir a fortaleza de seu oponente, reduzindo seus pontos de vida a zero.&lt;br&gt;
+&#160;&#160;&lt;br&gt;
+Posicionando as Unidades:&lt;br&gt;
+&#160;&#160;Você posiciona suas peças em segredo enquanto uma cortina cobre as peças de seu oponente. Seu oponente deve olhar para outro lado.&lt;br&gt;
+&#160;&#160;Você pode colocar unidades e terrenos em qualquer lugar na sua metade do campo.&lt;br&gt;
+&#160;&#160;Cada quadrado pode conter uma unidade e um terreno.&lt;br&gt;
+&#160;&#160;Você posiciona uma unidade clicando nela para seleciona-la, e então clicando onde você quer coloca-la.&lt;br&gt;
+&#160;&#160;Montanhas e rios não podem ser movidos após o início do jogo, e a fortaleza está sempre em uma posição fixa.&lt;br&gt;
+&#160;&#160;Quando todas as peças são posicionadas, você deverá tocar a tela onde solicitado.&lt;br&gt;
+&#160;&#160;&lt;br&gt;
+Movendo Unidades:&lt;br&gt;
+&#160;&#160;Durante cada turno você deve mover 3 unidades, ou todas suas unidades se você tem menos que 3.&lt;br&gt;
+&#160;&#160;Cada unidade pode se mover certa quantidade de quadrados por turnos.&lt;br&gt;
+&#160;&#160;Alguns quadrados possuem montanhas e rios neles. Mover nesses quadrados pode ter custos extra, dependendo da unidade.&lt;br&gt;
+&#160;&#160;Uma unidade pode passar pela própria fortaleza, mas não pode passar sobre a fortaleza adversária.&lt;br&gt;
+&#160;&#160;Quando você clica em uma unidade, todos os locais onde ela pode ir serão destacados em azul e os espaços onde ela pode atacar serão destacados em vermelho.&lt;br&gt;
+&#160;&#160;Clique em um quadrado azul para mover a unidade. Uma vez movida, você tem e opção de entrar em combate com uma unidade inimiga simplesmente clicando sobre a unidade inimiga. Você também pode terminar seu turno clicando sobre a própria unidade.&lt;br&gt;
+&#160;&#160;Se você clicar sobre uma unidade inimiga, todos os quadrados que podem atacar serão destacados em vermelho.&lt;br&gt;
+&#160;&#160;&lt;br&gt;
+Atacando Unidades:&lt;br&gt;
+&#160;&#160;Unidades de combate direto atacam inimigos sendo movidas e então entrando em combate com uma unidade adversária.&lt;br&gt;
+&#160;&#160;Unidades de combate indireto, como a catapulta e o trabuco, não podem mover e atacar no mesmo turno. Para atacar uma unidade inimiga, você mantém a catapulta ou trabuco no mesmo lugar e então clica em uma unidade inimiga destacada em vermelho.&lt;br&gt;
+&#160;&#160;Cada unidade tem um valor para força, que é mostrado na unidade.&lt;br&gt;
+&#160;&#160;Se a unidade atacante tem força maior ou igual a força da unidade de defesa, a unidade de defesa será destruída. Se a unidade atacante tem força menor que a força da unidade de defesa, a unidade de defesa será destruída.&lt;br&gt;
+&#160;&#160;Se a unidade de ataque estiver ao alcance da unidade de defesa, ela também será destruída.&lt;br&gt;
+&#160;&#160;Unidades de combate indireto não podem contra-atacar.&lt;br&gt;
+&#160;&#160;&lt;br&gt;
+A Fortaleza:&lt;br&gt;
+&#160;&#160;A fortaleza tem 10 pontos de vida e pode ser atacada se não existir nenhuma unidade dentro da fortaleza.&lt;br&gt;
+&#160;&#160;Cada ataque irá diminuir os pontos de vida da fortaleza pelo valor da força da unidade atacante.</string>
+<string name="rules_header">Regras do jogo</string>
+<string name="unit_stats_header">Estatística das Unidades</string>
+<string name="colors_title">Cores</string>
+<string name="red">Vermelho</string>
+<string name="green">Verde</string>
+<string name="blue">Azul</string>
+<string name="p1_colors_title">Cor do Jogador 1</string>
+<string name="p2_colors_title">Cor do Jogador 2</string>
+<string name="touch_here_when_done">Toque aqui quando terminar</string>
+<string name="back_dialog_title">Você quer salvar o jogo?</string>
+<string name="save">Salvar</string>
+<string name="dont_save">Não Salvar</string>
+<string name="cancel">Cancelar</string>
+<string name="new_game">Novo Jogo</string>
+<string name="load_game">Carregar Jogo</string>
+<string name="about">Sobre</string>
+<string name="about_title">Sobre</string>
+<string name="about_body">Por favor enviar dúvidas, comentários ou elogios para &lt;a href="mailto:cyvasse.game@gmail.com"&gt;cyvasse.game@gmail.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+Este jogo foi produzido usando Nicolas Gramlich\'s &lt;a href="http://www.andengine.org/"&gt;AndEngine&lt;/a&gt;&lt;br&gt;&lt;br&gt;.
+Gráficos por &lt;a href="http://www.mediachance.com/pseam/"&gt;PhotoSEAM&lt;/a&gt; e &lt;a href="http://www.getpaint.net/"&gt;Paint.NET&lt;/a&gt;, com ajuda do &lt;a href="http://images.google.com/"&gt;Google Imagens&lt;/a&gt;&lt;br&gt;&lt;br&gt;.
+Obrigado a todos meus amigos que ajudaram nos desafios e testes desse jogo:&lt;br&gt;
+- Mãe&lt;br&gt;
+- Gustaf \"Loosie Goosie\" Lonaeus&lt;br&gt;
+- Matt \"Minister of Internal Security of the Cyvasse R&amp;D Team\" Knight&lt;br&gt;
+- Alex Levine&lt;br&gt;
+- Danielle Lohan&lt;br&gt;
+- Liz S.&lt;br&gt;
+- Kevin D.&lt;br&gt;
+- Arielle C.&lt;br&gt;
+- Qi Y.&lt;br&gt;
+- Suxiao Y.&lt;br&gt;
+- Gean Kaminski&lt;br&gt;&lt;br&gt;
+Agradecimento especial para George R.R. Martin por criar um mundo de fantasia tão rico no qual esse jogo foi baseado.&lt;br&gt;&lt;br&gt;
+Este código não é aberto, mas se você pedir, eu compartilharei ele com você.</string>
+<string name="about_enjoy">Aproveite!</string>
+<string name="you_win">Você Venceu!</string>
+<string name="you_lose">Você Perdeu</string>
+<plurals name="moves_left">
+<item quantity="zero">No Moves Left</item>
+<item quantity="one">1 movimento restante</item>
+<item quantity="few">%d movimentos restantes</item>
+<item quantity="other">%d movimentos restantes</item>
+</plurals>
+</resources>

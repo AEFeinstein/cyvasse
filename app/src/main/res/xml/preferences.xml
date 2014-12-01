@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    android:key="preference_screen" >
+
+    <PreferenceCategory android:title="@string/game_rules_options_title" >
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/board_size_names"
+            android:entryValues="@array/board_size_values"
+            android:key="@string/board_size_key"
+            android:title="@string/board_size_title" />
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/num_moves_values"
+            android:entryValues="@array/num_moves_values"
+            android:key="@string/num_moves_key"
+            android:title="@string/num_moves_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/num_units_title" >
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_rabble_key"
+            android:title="@string/num_rabble_title" />
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_spearmen_key"
+            android:title="@string/num_spearmen_title" />
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_crossbowmen_key"
+            android:title="@string/num_crossbowmen_title" />
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_light_horse_key"
+            android:title="@string/num_light_horse_title" />
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_heavy_horse_key"
+            android:title="@string/num_heavy_horse_title" />
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_elephant_key"
+            android:title="@string/num_elephant_title" />
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_catapult_key"
+            android:title="@string/num_catapult_title" />
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_trebuchet_key"
+            android:title="@string/num_trebuchet_title" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_dragon_key"
+            android:title="@string/num_dragon_title" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/num_units_values"
+            android:entryValues="@array/num_units_values"
+            android:key="@string/num_king_key"
+            android:title="@string/num_king_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/num_terrain_title" >
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/num_terrain_values"
+            android:entryValues="@array/num_terrain_values"
+            android:key="@string/num_mountain_key"
+            android:title="@string/num_mountain_title" />
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/num_terrain_values"
+            android:entryValues="@array/num_terrain_values"
+            android:key="@string/num_river_key"
+            android:title="@string/num_river_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/colors_title" >
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="255"
+            android:key="@string/p1_red_key"
+            android:max="255"
+            android:summary="@string/red"
+            android:title="@string/p1_colors_title"
+            robobunny:min="0" />
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="211"
+            android:key="@string/p1_green_key"
+            android:max="255"
+            android:summary="@string/green"
+            robobunny:min="0" />
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="0"
+            android:key="@string/p1_blue_key"
+            android:max="255"
+            android:summary="@string/blue"
+            robobunny:min="0" />
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="0"
+            android:key="@string/p2_red_key"
+            android:max="255"
+            android:summary="@string/red"
+            android:title="@string/p2_colors_title"
+            robobunny:min="0" />
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="136"
+            android:key="@string/p2_green_key"
+            android:max="255"
+            android:summary="@string/green"
+            robobunny:min="0" />
+        <com.robobunny.SeekBarPreference
+            android:defaultValue="191"
+            android:key="@string/p2_blue_key"
+            android:max="255"
+            android:summary="@string/blue"
+            robobunny:min="0" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

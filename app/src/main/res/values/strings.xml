@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+<string name="app_name">Cyvasse</string>
+<string name="settings">Settings</string>
+
+<!-- Strings for possible PreferenceActivity Back/Next buttons -->
+<string name="back_button_label">Back</string>
+<string name="next_button_label">Next</string>
+
+<!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+<string name="skip_button_label">Skip</string>
+<string name="num_rabble_title">Number of Rabble</string>
+<string name="num_spearmen_title">Number of Spearmen</string>
+<string name="num_crossbowmen_title">Number of Crossbowmen</string>
+<string name="num_light_horse_title">Number of Light Horses</string>
+<string name="num_heavy_horse_title">Number of Heavy Horses</string>
+<string name="num_elephant_title">Number of Elephants</string>
+<string name="num_catapult_title">Number of Catapults</string>
+<string name="num_trebuchet_title">Number of Trebuchets</string>
+<string name="num_dragon_title">Number of Dragons</string>
+<string name="num_king_title">Number of Kings</string>
+<string name="num_mountain_title">Number of Mountains</string>
+<string name="num_river_title">Number of Rivers</string>
+<string name="board_size_title">Board Size</string>
+<string name="num_moves_title">Number of Moves Per Turn</string>
+<string name="num_units_title">Number of Unit Pieces</string>
+<string name="num_terrain_title">Number of Terrain Pieces</string>
+<string name="game_rules_options_title">Game Rule Options</string>
+<string name="too_many_pieces" formatted="false">%d is too many pieces! Please set at most %d pieces in the settings.</string>
+
+<plurals name="moves_left">
+<item quantity="zero">No Moves Left</item>
+<item quantity="one">1 Move Left</item>
+<item quantity="few">%d Moves Left</item>
+<item quantity="other">%d Moves Left</item>
+</plurals>
+
+<string name="notes">How To Play</string>
+<string name="strength_str">Strength:</string>
+<string name="movement_str">Movement:</string>
+<string name="penalty_mountain_str">Mountain Movement Penalty:</string>
+<string name="river_movement_penalty">River Movement Penalty:</string>
+<string name="min_attack_range_str">Minimum Attack Range:</string>
+<string name="max_attack_range_str">Maximum Attack Range:</string>
+<string name="rabble_name">Rabble</string>
+<string name="spearmen_name">Spearmen</string>
+<string name="crossbowmen_name">Crossbowmen</string>
+<string name="light_horse_name">Light Horse</string>
+<string name="heavy_horse_name">Heavy Horse</string>
+<string name="elephant_name">Elephant</string>
+<string name="catapult_name">Catapult</string>
+<string name="trebuchet_name">Trebuchet</string>
+<string name="dragon_name">Dragon</string>
+<string name="king_name">King</string>
+<string name="all_the_rules">
+Objective:&lt;br&gt;
+&#160;&#160;The objective of Cyvasse is to either destroy all of your opponent\'s units in combat, or destroy their fortress by reducing its hit points to zero.&lt;br&gt;
+&lt;br&gt;
+Setting Up Units:&lt;br&gt;
+&#160;&#160;You set up your pieces in secret while a curtain covers your opponent\'s pieces. Your opponent is encouraged to look away.&lt;br&gt;
+&#160;&#160;You may place your units and terrains anywhere on your half of the board.&lt;br&gt;
+&#160;&#160;Each square may contain one terrain and one unit.&lt;br&gt;
+&#160;&#160;You place a unit by tapping it once to select it, and then tapping where you want to move it.&lt;br&gt;
+&#160;&#160;Mountains and rivers are immovable once the game begins, and the fortress is always in a fixed position.&lt;br&gt;
+&#160;&#160;When all your pieces are placed, a button will appear to start the next phase of the game.&lt;br&gt;
+&lt;br&gt;
+Moving Units:&lt;br&gt;
+&#160;&#160;During each turn you must move three units, or all of your units if you have fewer than three.&lt;br&gt;
+&#160;&#160;Each unit can move over a certain number of adjacent squares per turn.&lt;br&gt;
+&#160;&#160;Some squares have mountains or rivers on them. Moving onto that square might cost extra moves, depending on the unit being moved.&lt;br&gt;
+&#160;&#160;A unit can travel over the friendly fortress as if it were a field, but may not travel over an enemy fortress.&lt;br&gt;
+&#160;&#160;When you tap a unit, all the places it can move will be highlighted in blue and the furthest spaces it can attack will be highlighted in red.&lt;br&gt;
+&#160;&#160;Tap on a blue square to move the unit there. Once moved, you have the option of entering combat with any enemy units in attack range by tapping on the enemy unit or ending that unit’s move by tapping it again.&lt;br&gt;
+&#160;&#160;If you tap an opponent’s unit, all the squares it can attack will be highlighted in red.&lt;br&gt;
+&lt;br&gt;
+Attacking Units:&lt;br&gt;
+&#160;&#160;Direct combat units attack enemy units by moving adjacent to and then tapping an enemy unit.&lt;br&gt;
+&#160;&#160;Indirect combat units, Catapults and Trebuchets, cannot move and attack in the same turn. To attack an enemy unit, you leave them on the same square, and then tap any enemy unit in the highlighted red attack range.&lt;br&gt;
+&#160;&#160;Each unit has a strength value, which is displayed on the unit.&lt;br&gt;
+&#160;&#160;If the attacking unit\'s strength is greater than or equal to the defending unit\'s strength, the defending unit will be destroyed.&lt;br&gt;
+&#160;&#160;If the attacking unit\'s strength is one less than the defending unit\'s strength the defending unit will be destroyed. If the attacking unit is in the defending unit’s attack range, it will be destroyed too. Defending indirect combat units cannot counterattack.&lt;br&gt;
+&#160;&#160;Units attack together, so all friendly units adjacent to the defending unit which can attack it will attack it. The attacking units\' strengths will be summed together for battle.&lt;br&gt;
+&lt;br&gt;
+The Fortress&lt;br&gt;
+&#160;&#160;The fortress has 10 hit points and may be attacked if there isn’t a unit already on the fortress. Each attack will decrease the fortress’s hit points by the strength of the attacking unit.&lt;br&gt;
+&#160;&#160;If a unit attacks another unit on a fortress, combat happens as usual and the fortress is unscathed.
+</string>
+<string name="rules_header">Rules of the Game</string>
+<string name="unit_stats_header">Unit Statistics</string>
+<string name="colors_title">Colors</string>
+<string name="red">Red</string>
+<string name="green">Green</string>
+<string name="blue">Blue</string>
+<string name="p1_colors_title">Player 1\'s Color</string>
+<string name="p2_colors_title">Player 2\'s Color</string>
+<string name="touch_here_when_done">Touch Here When Done</string>
+<string name="back_dialog_title">Do you want to save the game?</string>
+<string name="save">Save</string>
+<string name="dont_save">Don\'t Save</string>
+<string name="cancel">Cancel</string>
+<string name="new_game">New Game</string>
+<string name="load_game">Load Game</string>
+<string name="about">About</string>
+<string name="about_title">About</string>
+<string name="about_body">
+Please send questions, comments, concerns, and praise to &lt;a href="mailto:cyvasse.game@gmail.com"&gt;cyvasse.game@gmail.com&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+This game was built using Nicolas Gramlich\'s &lt;a href="http://www.andengine.org/"&gt;AndEngine&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+Graphics by &lt;a href="http://www.mediachance.com/pseam/"&gt;PhotoSEAM&lt;/a&gt; and &lt;a href="http://www.getpaint.net/"&gt;Paint.NET&lt;/a&gt;, with help from &lt;a href="http://images.google.com/"&gt;Google Images&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+Thanks to all of my friends who helped to brainstorm and test this game:&lt;br&gt;
+&lt;center&gt;
+- Mom&lt;br&gt;
+- Gustaf \"Loosie Goosie\" Lonaeus&lt;br&gt;
+- Matt \"Minister of Internal Security of the Cyvasse R&amp;D Team\" Knight&lt;br&gt;
+- Alex Levine&lt;br&gt;
+- Danielle Lohan&lt;br&gt;
+- Liz S.&lt;br&gt;
+- Kevin D.&lt;br&gt;
+- Arielle C.&lt;br&gt;
+- Qi Y.&lt;br&gt;
+- Suxiao Y.&lt;br&gt;&lt;br&gt;
+&lt;/center&gt;
+Special thanks to George R. R. Marting for creating such a rich fantasy world in which this game exists.&lt;br&gt;&lt;br&gt;
+The code isn\'t open source, but if you ask nicely, I\'ll share it with you.&lt;br&gt;&lt;br&gt;
+</string>
+<string name="about_enjoy">Enjoy!</string>
+<string name="you_win">You Win!</string>
+<string name="you_lose">You Lose.</string>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="is_tablet">FALSE</string>
+    <string name="really_is_tablet">TRUE</string>
+    <string name="num_rabble_key">num_rabble</string>
+    <string name="num_spearmen_key">num_spearmen</string>
+    <string name="num_crossbowmen_key">num_crossbowmen</string>
+    <string name="num_light_horse_key">num_light_horse</string>
+    <string name="num_heavy_horse_key">num_heavy_horse</string>
+    <string name="num_elephant_key">num_elephant</string>
+    <string name="num_catapult_key">num_catapult</string>
+    <string name="num_trebuchet_key">num_trebuchet</string>
+    <string name="num_dragon_key">num_dragon</string>
+    <string name="num_king_key">num_king</string>
+    <string name="num_mountain_key">num_mountain</string>
+    <string name="num_river_key">num_river</string>
+    <string name="board_size_key">board_size</string>
+    <string name="num_moves_key">num_moves</string>
+    <string name="p1_red_key">p1_red_key</string>
+    <string name="p1_green_key">p1_green_key</string>
+    <string name="p1_blue_key">p1_blue_key</string>
+    <string name="p2_red_key">p2_red_key</string>
+    <string name="p2_green_key">p2_green_key</string>
+    <string name="p2_blue_key">p2_blue_key</string>
+
+    <!-- Rabble are the pawniest units. -->
+    <!-- Spearmen have one more attack than Rabble -->
+    <!-- Crossbowmen have one more range than Rabble -->
+    <string name="rabble_strength">1</string>
+    <string name="rabble_movement">2</string>
+    <string name="rabble_penalty_mountain">2</string>
+    <string name="rabble_penalty_river">1</string>
+    <string name="rabble_min_attack_range">1</string>
+    <string name="rabble_max_attack_range">1</string>
+    <string name="spearmen_strength">1</string>
+    <string name="spearmen_movement">3</string>
+    <string name="spearmen_penalty_mountain">2</string>
+    <string name="spearmen_penalty_river">1</string>
+    <string name="spearmen_min_attack_range">1</string>
+    <string name="spearmen_max_attack_range">1</string>
+    <string name="crossbowmen_strength">1</string>
+    <string name="crossbowmen_movement">2</string>
+    <string name="crossbowmen_penalty_mountain">2</string>
+    <string name="crossbowmen_penalty_river">1</string>
+    <string name="crossbowmen_min_attack_range">1</string>
+    <string name="crossbowmen_max_attack_range">2</string>
+
+    <!-- Light Horse have the best movement, but worst strength of the mid-tier units -->
+    <!-- Heavy Horse is the most balanced of mid-tier units -->
+    <!-- Elephant is the strongest, but slowest, mid-tier unit -->
+    <string name="light_horse_strength">2</string>
+    <string name="light_horse_movement">5</string>
+    <string name="light_horse_penalty_mountain">2</string>
+    <string name="light_horse_penalty_river">3</string>
+    <string name="light_horse_min_attack_range">1</string>
+    <string name="light_horse_max_attack_range">1</string>
+    <string name="heavy_horse_strength">3</string>
+    <string name="heavy_horse_movement">4</string>
+    <string name="heavy_horse_penalty_mountain">2</string>
+    <string name="heavy_horse_penalty_river">3</string>
+    <string name="heavy_horse_min_attack_range">1</string>
+    <string name="heavy_horse_max_attack_range">1</string>
+    <string name="elephant_strength">4</string>
+    <string name="elephant_movement">3</string>
+    <string name="elephant_penalty_mountain">2</string>
+    <string name="elephant_penalty_river">2</string>
+    <string name="elephant_min_attack_range">1</string>
+    <string name="elephant_max_attack_range">1</string>
+
+    <!-- Trebuchets have a longer and stronger attack than Catapults, but they both have an attack width of 2 -->
+    <!-- Catapults can move slightly further than trebuchets -->
+    <string name="catapult_strength">3</string>
+    <string name="catapult_movement">3</string>
+    <string name="catapult_penalty_mountain">3</string>
+    <string name="catapult_penalty_river">6</string>
+    <string name="catapult_min_attack_range">2</string>
+    <string name="catapult_max_attack_range">3</string>
+    <string name="trebuchet_strength">4</string>
+    <string name="trebuchet_movement">2</string>
+    <string name="trebuchet_penalty_mountain">2</string>
+    <string name="trebuchet_penalty_river">6</string>
+    <string name="trebuchet_min_attack_range">3</string>
+    <string name="trebuchet_max_attack_range">4</string>
+
+    <!-- Dragons are god tier for movement, and demigod tier for strength -->
+    <!-- The king is the strongest unit, but has the movement of a Rabble -->
+    <string name="dragon_strength">5</string>
+    <string name="dragon_movement">6</string>
+    <string name="dragon_penalty_mountain">1</string>
+    <string name="dragon_penalty_river">1</string>
+    <string name="dragon_min_attack_range">1</string>
+    <string name="dragon_max_attack_range">1</string>
+    <string name="king_strength">6</string>
+    <string name="king_movement">2</string>
+    <string name="king_penalty_mountain">1</string>
+    <string name="king_penalty_river">1</string>
+    <string name="king_min_attack_range">1</string>
+    <string name="king_max_attack_range">1</string>
+
+    <string-array name="num_moves_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="num_units_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="num_terrain_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="board_size_values">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="board_size_names">
+        <item>8x8</item>
+        <item>9x9</item>
+        <item>10x10</item>
+        <item>11x11</item>
+        <item>12x12</item>
+        <item>13x13</item>
+        <item>14x14</item>
+        <item>15x15</item>
+        <item>16x16</item>
+    </string-array>
+</resources>
